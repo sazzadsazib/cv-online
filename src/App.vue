@@ -9,6 +9,7 @@
 import HelloWorld from './components/HelloWorld.vue'
 
 export default {
+  title: 'Sazib CV Online',
   name: 'App',
   components: {
     HelloWorld

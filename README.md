@@ -1,4 +1,4 @@
-# cv-vue
+# CV - online version made in vueJs
 
 ## Project setup
 ```
@@ -19,6 +19,10 @@ yarn build
 ```
 yarn lint
 ```
+
+### why using vuejs?
+
+I really don't know :| missing php i guess :|
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
