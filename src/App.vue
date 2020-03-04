@@ -1,29 +1,31 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+    <cvContainer v-bind:cvData="cvData"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import cvContainer from './components/cvContainer.vue';
+import cvData from './cvdata.js';
 
 export default {
-  title: 'Sazib CV Online',
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+    title: 'Sazib CV Online',
+    name: 'App',
+    components: {
+        cvContainer,
+    },
+    data () {
+        return {
+            cvData: cvData,
+            default: ()=>{}
+        };
+    },
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
 }
 </style>

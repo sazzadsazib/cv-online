@@ -1,9 +1,9 @@
 module.exports = {
     name: 'Md. Sazzadul islam',
     designation: 'Software Engineer',
-    githubLink: 'https://github.com/sazzadsazib',
-    linkedIn: 'https://www.linkedin.com/in/sazzadsazib?',
-    dribbble: 'https://www.dribbble.com/sazzadsazib',
+    githubLink: {title: '@sazzadsazib', link: 'https://github.com/sazzadsazib'},
+    linkedIn: {title: '@sazzadsazib', link: 'https://www.linkedin.com/in/sazzadsazib'},
+    dribbble: {title: '@sazzadsazib', link: 'https://www.dribbble.com/sazzadsazib'},
     avatar: 'https://avatars.githubusercontent.com/sazzadsazib',
     fieldOfWork: [
         'Web Development',
@@ -97,7 +97,7 @@ module.exports = {
             responsiblity: 'UI/UX DESIGN & Front-end Development Lead',
             description:
                 'It was a bot building system for developer. This software automate bots from different platform such as facebook,viber,whats app and allow admins to manage the messages form same platform. It is in Sass model as well as for enterprise model. This make admin accessiblity to manage bot from omni-chanel which very few companys in world can do. My responsiblity was to maintain all design and UX/ flow design & implement them in frontend using reactJs',
-                link: 'https://app.getalice.ai'
+            link: 'https://app.getalice.ai',
         },
         {
             id: 2,
@@ -150,4 +150,56 @@ module.exports = {
             link: 'https://maya.com.bd/',
         },
     ],
+    personalProjects: [
+        {
+            id: 1,
+            timespan: '2019',
+            projectlogo: 'https://i.ibb.co/fvcwjtY/cipher.png',
+            stack:
+                'ReactJS ( Front-end ) , NodeJS (Back-end), MongoDB ( Database)',
+            description:
+                'This is a basic progressive web app for reading things online and offline. It can be any notes, chapter from web novels etc. Both Frontend, Backend & Design done by me. You can add Notes, Read Notes, Delete etc. I have plan to pull data from website to store to read later. Interested? Fork the project and send PR :)',
+            link: 'https://cipher-reader.netlify.com',
+        },
+        {
+            id: 2,
+            timespan: '2018',
+            projectlogo: 'https://i.ibb.co/7GNBMSz/portfolio.png',
+            stack: 'ReactJS ( Front-end ) PWA',
+            description:
+                'This project is test on making a progressive web app. You may ask what is progressive web app?',
+            link: 'https://sazib.netlify.com',
+        },
+    ],
+    fieldInterested:
+        'As I’ve already worked as Front-end Development for 2+ year I wish to be a full-stack developer, I am trying to learn new technologies such as Server-less architecture(Lambda by AWS), GoLang etc. As my job is mostly based on front-end framework ReactJs therefore my scope from learning is from home, I have basic knowledge on JEST, NODEJS, VUEJS, JAVA, TypeScript etc.  I am interested to work in a place where I would be able to learn and implement optimisation of product and I  Most Importantly I love to learn new technologies.',
+    journal: {
+        linkTitle: 'RESEARCH & JOURNAL',
+        title:
+            'Optimizing Apple Lossless Audio Codec algorithm using NVIDIA CUDA architecture',
+        description:
+            'Paper accepted in September 2017 in SCOPUS INDEXED IJECE JOURNAL',
+    },
+    openSource: {
+        title: 'OPEN SOURCE CONTRIBUTION',
+        description:
+            'I love open source community. They helped me learn lot of things. I’ve contributed in different Projects in Open Source Community.',
+            contributedRepos: [
+                { id: 1, name: 'NES.CSS', link: 'http://bit.ly/2GXvC63' },
+                { id: 1, name: 'reactjs/bn.reactjs.org', link: 'http://bit.ly/2GXkjL4' },
+                { id: 1, name: 'React Heatmap Grid', link: 'http://bit.ly/2vvRC1q' },    
+            ],
+            onenSourcedPackages: [
+                { id: 1, name: 'Cohort React Graph', link: 'http://bit.ly/2IVojy0' },
+                { id: 1, name: 'Word Cloud React', link: 'http://bit.ly/2vv7hOC' },
+                { id: 1, name: 'utilitycss3', link: 'http://bit.ly/2vAsGpI' },    
+            ],
+    },
+    socialLinks: {
+        behance: 'https://www.behance.net/sazib66d5bc',
+        medium: 'https://medium.com/@sazzadsazib',
+        instagram: 'https://instagram.com/sazzadsazib',
+        portfolio: 'https:///sazib.netlify.com',
+        stackoverlow: 'https://stackoverflow.com/users/3415632/sazib',
+    }
 };
