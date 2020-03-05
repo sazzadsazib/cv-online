@@ -7,9 +7,9 @@ module.exports = {
     avatar: 'https://avatars.githubusercontent.com/sazzadsazib',
     fieldOfWork: [
         'Web Development',
-        'User Interface',
         'Graphic Design',
         'Team Building',
+        'User Interface',
     ],
     education: [
         {

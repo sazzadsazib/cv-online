@@ -96,7 +96,7 @@ export default {
 }
 
 /* just mobile */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     .cv-container__header {
         display: block;
     }

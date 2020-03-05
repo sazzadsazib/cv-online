@@ -1,5 +1,5 @@
 <template>
-    <cvContainer v-bind:cvData="cvData"/>
+    <cvContainer v-bind:cvData="cvData" />
 </template>
 
 <script>
@@ -12,20 +12,21 @@ export default {
     components: {
         cvContainer,
     },
-    data () {
+    data() {
         return {
             cvData: cvData,
-            default: ()=>{}
+            default: () => {},
         };
     },
 };
 </script>
 
 <style>
-body{
+body {
     margin: 0;
     padding: 0;
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
+    color: #232931;
 }
 </style>
