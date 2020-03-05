@@ -43,4 +43,10 @@ export default {
     top: 10rem;
     right: 0rem;
 }
+/* just mobile */
+@media only screen and (max-width: 600px) {
+    .cv-content {
+        padding: 2rem;
+    }
+}
 </style>

@@ -6,13 +6,22 @@
             <P class="subtitle">{{ headerData.designation }}</P>
             <div class="header-body__social">
                 <div class="header-body__social__elements">
-                    <a :href="headerData.githubLink.link" target="_blank" ><img :src="githubIcon" /> {{headerData.githubLink.title}}</a>
+                    <a :href="headerData.githubLink.link" target="_blank"
+                        ><img :src="githubIcon" />
+                        {{ headerData.githubLink.title }}</a
+                    >
                 </div>
                 <div class="header-body__social__elements">
-                    <a :href="headerData.githubLink.link" target="_blank" ><img :src="linkedInIcon" />  {{headerData.githubLink.title}}</a>
+                    <a :href="headerData.githubLink.link" target="_blank"
+                        ><img :src="linkedInIcon" />
+                        {{ headerData.githubLink.title }}</a
+                    >
                 </div>
                 <div class="header-body__social__elements">
-                    <a :href="headerData.dribbble.link" target="_blank" ><img :src="dribbbleIcon" /> {{headerData.dribbble.title}}</a>
+                    <a :href="headerData.dribbble.link" target="_blank"
+                        ><img :src="dribbbleIcon" />
+                        {{ headerData.dribbble.title }}</a
+                    >
                 </div>
             </div>
         </div>
@@ -84,5 +93,56 @@ export default {
 .header-body__social__elements > a > img {
     width: 40px;
     margin-right: 10px;
+}
+
+/* just mobile */
+@media only screen and (max-width: 600px) {
+    .cv-container__header {
+        display: block;
+    }
+    .cv-container__header__avatar {
+        width: 60%;
+        margin: 0 auto;
+        text-align: center;
+        display: block;
+    }
+    .header-body > .title {
+        font-size: 1.8rem;
+        text-align: center;
+        margin: 2rem 0 0;
+    }
+    .header-body > .subtitle {
+        font-size: 1rem;
+        margin: 1rem 0 0;
+        text-align: center;
+    }
+    .header-body__social {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .header-body__social__elements > a {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        font-size: 3vmin;
+        font-weight: 600;
+        color: #333;
+    }
+    .header-body__social__elements {
+        flex: auto;
+        width: auto;
+        margin-left: 0;
+    }
+    .header-body__social__elements > a > img {
+        width: 20px;
+        margin-right: 5px;
+    }
+    @media only screen and (max-width: 400px) {
+        .header-body__social__elements {
+            display: none;
+        }
+    }
 }
 </style>
