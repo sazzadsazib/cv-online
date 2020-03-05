@@ -37,7 +37,7 @@ export default {
     margin-top: 4rem;
 }
 .cv-fieldOfWork > .title {
-    font-size: 2.3rem;
+    font-size: 2rem;
     font-weight: 700;
     text-transform: uppercase;
 }

@@ -14,21 +14,21 @@ module.exports = {
     education: [
         {
             id: 1,
-            year: 2012 - 2016,
+            year: "2012 - 2016",
             degree: 'Bsc. In Computer Science',
             institute: 'BRAC University',
             result: 'CGPA - 3.56',
         },
         {
             id: 2,
-            year: 2010 - 2012,
+            year: "2010 - 2012",
             degree: 'Higher Secondary Certificate',
             institute: 'Govt Bangla College',
             result: '',
         },
         {
             id: 3,
-            year: 2001 - 2010,
+            year: "2001 - 2010",
             degree: 'Secondary School Certificate',
             institute: 'Sher-E-Bangla Nagar Govt Boys’ School',
             result: '',
