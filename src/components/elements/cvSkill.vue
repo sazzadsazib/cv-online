@@ -33,7 +33,7 @@ export default {
 
 <style scoped>
 .cv-skill {
-    margin-top: 1rem;
+    margin-top: 3rem;
 }
 
 .skill-list {

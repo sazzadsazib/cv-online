@@ -14,14 +14,14 @@
                     {{ experiance.designation }}
                 </p>
                 <p class="experiance-container__company-name">
-                    {{ experiance.companyname }}
                     <a
                         v-if="experiance.link"
                         :href="experiance.link"
                         rel="noreferrer noopener"
                         target="_blank"
-                        ><i class="company-link"></i
+                        ><i class="link-icon"></i
                     ></a>
+                    {{ experiance.companyname }}
                 </p>
                 <p class="experiance-container__description">
                     {{ experiance.description }}
@@ -39,7 +39,7 @@ export default {
 
 <style scoped>
 .cv-experiance {
-    border-left: 1px solid lightgrey;
+    border-left: 1px solid rgb(233, 233, 233);
     padding-left: 40px;
 }
 .experiance-container {
@@ -50,7 +50,10 @@ export default {
 
 .experiance-container__working-year {
     margin-right: 2rem;
-    min-width: 7rem;
+    margin-top: 0.9rem;
+    min-width: 5rem;
+    font-size: 0.8rem;
+    color: grey;
 }
 
 .experiance-container__designation {
@@ -67,53 +70,11 @@ export default {
     display: flex;
     align-items: center;
 }
-.experiance-container__company-name > a > i {
-    margin-left: 15px;
-    cursor: pointer;
-    color: #4f535aae;
-}
 .experiance-container__description {
     text-align: justify;
     font-size: 1rem;
     color: #4f535a;
     line-height: 1.7rem;
-}
-
-/* icon */
-
-.company-link {
-    box-sizing: border-box;
-    position: relative;
-    display: block;
-    transform: rotate(-45deg) scale(var(--ggs, 1));
-    width: 8px;
-    height: 2px;
-    background: currentColor;
-    border-radius: 4px;
-}
-.company-link::after,
-.company-link::before {
-    content: '';
-    display: block;
-    box-sizing: border-box;
-    position: absolute;
-    border-radius: 3px;
-    width: 8px;
-    height: 10px;
-    border: 2px solid;
-    top: -4px;
-}
-.company-link::before {
-    border-right: 0;
-    border-top-left-radius: 40px;
-    border-bottom-left-radius: 40px;
-    left: -6px;
-}
-.company-link::after {
-    border-left: 0;
-    border-top-right-radius: 40px;
-    border-bottom-right-radius: 40px;
-    right: -6px;
 }
 
 /* just mobile */

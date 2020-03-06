@@ -39,8 +39,15 @@ export default {
 
 .education-container__year {
     margin-right: 2rem;
-    min-width: 6rem;
+    min-width: 5rem;
+    font-size: 0.8rem;
+    color: grey;
+    margin-top: 0.9rem;
 }
+.education-container__grad-title {
+    margin-top: 0.9rem;
+}
+
 /* just mobile */
 @media only screen and (max-width: 700px) {
     .cv-education {

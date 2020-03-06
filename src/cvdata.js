@@ -94,9 +94,9 @@ module.exports = {
             timespan: 'Aug 2019 - Present',
             projectlogo: 'https://i.ibb.co/s2V6YWb/alicev3.png',
             company: 'ALICE LABS',
-            responsiblity: 'UI/UX DESIGN & Front-end Development Lead',
+            responsiblity: 'UI/UX DESIGN & Front-end Development',
             description:
-                'It was a bot building system for developer. This software automate bots from different platform such as facebook,viber,whats app and allow admins to manage the messages form same platform. It is in Sass model as well as for enterprise model. This make admin accessiblity to manage bot from omni-chanel which very few companys in world can do. My responsiblity was to maintain all design and UX/ flow design & implement them in frontend using reactJs',
+                'It was a bot building system for developer. This software automate bots from different platform such as facebook,viber,whats app and allow admins to manage the messages form same platform. It is in Sass model as well as for enterprise model. This make admin accessiblity to manage bot from omni-chanel which very few companys in world can do. My responsiblity was to maintain all design and UX flow design & implement them in frontend using reactJs',
             link: 'https://app.getalice.ai',
         },
         {
@@ -142,7 +142,7 @@ module.exports = {
         {
             id: 6,
             timespan: 'JAN 2018 - FEB 2019',
-            projectlogo: 'https://i.ibb.co/2ngT3xp/mis-fit.png',
+            projectlogo: 'https://i.ibb.co/d71pvCh/footer-maya-logo-1-513x.png',
             company: 'Mayalogy Ltd',
             responsiblity: 'UI/UX DESIGN & Front-end Development',
             description:
