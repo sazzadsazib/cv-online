@@ -14,7 +14,14 @@
                     {{ experiance.designation }}
                 </p>
                 <p class="experiance-container__company-name">
-                    {{ experiance.companyname }} <a v-if="experiance.link" :href="experiance.link" rel="noreferrer noopener" target="_blank"><i class="company-link"></i></a>
+                    {{ experiance.companyname }}
+                    <a
+                        v-if="experiance.link"
+                        :href="experiance.link"
+                        rel="noreferrer noopener"
+                        target="_blank"
+                        ><i class="company-link"></i
+                    ></a>
                 </p>
                 <p class="experiance-container__description">
                     {{ experiance.description }}
@@ -31,6 +38,10 @@ export default {
 </script>
 
 <style scoped>
+.cv-experiance {
+    border-left: 1px solid lightgrey;
+    padding-left: 40px;
+}
 .experiance-container {
     display: flex;
     justify-content: flex-start;
@@ -107,6 +118,10 @@ export default {
 
 /* just mobile */
 @media only screen and (max-width: 700px) {
+    .cv-experiance {
+        border: none;
+        padding-left: 0;
+    }
     .experiance-container {
         display: block;
     }
