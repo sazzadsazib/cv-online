@@ -34,7 +34,7 @@ export default {
 
 <style scoped>
 .cv-fieldOfWork {
-    margin-top: 4rem;
+    margin-top: 5rem;
 }
 .cv-fieldOfWork > .title {
     font-size: 2rem;
@@ -45,6 +45,7 @@ export default {
     display: flex;
     justify-content: space-around;
     align-items: baseline;
+    margin: 3rem 0;
 }
 .fieldOfWork-container__item {
     display: flex;
