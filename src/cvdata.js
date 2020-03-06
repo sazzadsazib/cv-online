@@ -34,8 +34,7 @@ module.exports = {
             result: '',
         },
     ],
-    skills: [
-        {
+    skills: {
             frontend: [
                 'html',
                 'css',
@@ -56,7 +55,6 @@ module.exports = {
                 'Sketch',
             ],
         },
-    ],
     experiance: [
         {
             id: 1,

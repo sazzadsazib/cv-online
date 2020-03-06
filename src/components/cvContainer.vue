@@ -16,6 +16,7 @@
             <div class="cv-section-divide__container">
                 <div class="first-section">
                     <cvEducation v-bind:educationData="cvData.education" />
+                    <cvSkill v-bind:skillsData="cvData.skills"/>
                 </div>
                 <div class="second-section">
                     <cvExperiance v-bind:experianceData="cvData.experiance"/>
@@ -29,12 +30,13 @@
 import cvHeader from './elements/cvHeader';
 import cvFieldOfWork from './elements/cvFieldOfWork';
 import cvEducation from './elements/cvEducation';
+import cvSkill from './elements/cvSkill';
 import cvExperiance from './elements/cvExperiance';
 
 export default {
     name: 'cvContainer',
     props: ['cvData'],
-    components: { cvHeader, cvFieldOfWork, cvEducation,cvExperiance },
+    components: { cvHeader, cvFieldOfWork, cvEducation,cvExperiance,cvSkill },
 };
 </script>
 
