@@ -60,7 +60,7 @@ module.exports = {
     experiance: [
         {
             id: 1,
-            year: 2018 - 2020,
+            year: "2018 - 2020",
             designation: 'Software Engineer',
             companyname: 'Misfit Technologies',
             description:
@@ -68,7 +68,7 @@ module.exports = {
         },
         {
             id: 2,
-            year: 2017 - 2018,
+            year: "2017 - 2018",
             designation: 'Software Engineer and UI/UX Designer',
             companyname: 'Mayalogy Ltd.',
             description:
@@ -76,7 +76,7 @@ module.exports = {
         },
         {
             id: 3,
-            year: 2014 - 2017,
+            year: "2014 - 2017",
             designation: 'Freelancer',
             companyname: 'Designer and Web Developer',
             description:

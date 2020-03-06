@@ -14,7 +14,10 @@
                     {{ education.degree }}
                 </p>
                 <p class="education-container__grad-institute">
-                    {{ education.institute }} <strong v-if="education.result">{{`(${education.result})`}}</strong>
+                    {{ education.institute }}
+                    <strong v-if="education.result">{{
+                        `(${education.result})`
+                    }}</strong>
                 </p>
             </div>
         </div>
@@ -28,30 +31,20 @@ export default {
 </script>
 
 <style scoped>
-.cv-education > .title {
-    font-size: 2rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin: 0;
-}
-
 .education-container {
     display: flex;
     justify-content: flex-start;
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 .education-container__year {
     margin-right: 2rem;
     min-width: 6rem;
 }
-
 /* just mobile */
 @media only screen and (max-width: 700px) {
-    .cv-fieldOfWork > .title {
-        font-size: 1.5rem;
-        font-weight: 700;
-        text-transform: uppercase;
+    .cv-education {
+        margin-top: 3rem;
     }
 }
 </style>
