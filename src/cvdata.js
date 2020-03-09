@@ -186,13 +186,13 @@ module.exports = {
             'I love open source community. They helped me learn lot of things. I’ve contributed in different Projects in Open Source Community.',
             contributedRepos: [
                 { id: 1, name: 'NES.CSS', link: 'http://bit.ly/2GXvC63' },
-                { id: 1, name: 'reactjs/bn.reactjs.org', link: 'http://bit.ly/2GXkjL4' },
-                { id: 1, name: 'React Heatmap Grid', link: 'http://bit.ly/2vvRC1q' },    
+                { id: 2, name: 'reactjs/bn.reactjs.org', link: 'http://bit.ly/2GXkjL4' },
+                { id: 3, name: 'React Heatmap Grid', link: 'http://bit.ly/2vvRC1q' },    
             ],
             onenSourcedPackages: [
                 { id: 1, name: 'Cohort React Graph', link: 'http://bit.ly/2IVojy0' },
-                { id: 1, name: 'Word Cloud React', link: 'http://bit.ly/2vv7hOC' },
-                { id: 1, name: 'utilitycss3', link: 'http://bit.ly/2vAsGpI' },    
+                { id: 2, name: 'Word Cloud React', link: 'http://bit.ly/2vv7hOC' },
+                { id: 3, name: 'utilitycss3', link: 'http://bit.ly/2vAsGpI' },    
             ],
     },
     socialLinks: {

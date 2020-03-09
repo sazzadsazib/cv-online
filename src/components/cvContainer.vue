@@ -12,7 +12,6 @@
                 }"
             />
             <cvFieldOfWork v-bind:fieldOfWorkData="cvData.fieldOfWork" />
-
             <div class="cv-section-divide__container">
                 <div class="first-section">
                     <cvEducation v-bind:educationData="cvData.education" />
@@ -23,7 +22,14 @@
                 </div>
             </div>
             <cvProjects v-bind:projectsData="cvData.projects" />
+            <cvFieldInterested
+                v-bind:fieldInterestedData="cvData.fieldInterested"
+            />
+            <cvJournal v-bind:journalData="cvData.journal" />
+            <cvOpenSource v-bind:openSourceData="cvData.openSource" />
+            <cvSocialLinks v-bind:socialLinksData="cvData.socialLinks" />
         </div>
+        <cvFooter v-bind:info="cvData.info" />
     </div>
 </template>
 
@@ -34,6 +40,11 @@ import cvEducation from './elements/cvEducation';
 import cvSkill from './elements/cvSkill';
 import cvExperiance from './elements/cvExperiance';
 import cvProjects from './elements/cvProjects';
+import cvFieldInterested from './elements/cvFieldInterested';
+import cvJournal from './elements/cvJournal';
+import cvOpenSource from './elements/cvOpenSource';
+import cvSocialLinks from './elements/cvSocialLinks';
+import cvFooter from './elements/cvFooter';
 
 export default {
     name: 'cvContainer',
@@ -45,11 +56,22 @@ export default {
         cvExperiance,
         cvSkill,
         cvProjects,
+        cvFieldInterested,
+        cvJournal,
+        cvOpenSource,
+        cvSocialLinks,
+        cvFooter,
     },
 };
 </script>
 
 <style>
+.p-text {
+    text-align: justify;
+    font-size: 1rem;
+    color: #4f535a;
+    line-height: 1.7rem;
+}
 .cv-container {
     width: 100%;
     min-height: 100vh;
@@ -141,5 +163,12 @@ a > i {
     margin-right: 15px;
     cursor: pointer;
     color: #4f535aae;
+}
+a {
+    text-decoration: none;
+    color: gray;
+}
+.text-center {
+    text-align: center;
 }
 </style>
