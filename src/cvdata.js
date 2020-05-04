@@ -60,7 +60,7 @@ module.exports = {
             id: 1,
             year: "2018 - 2020",
             designation: 'Software Engineer',
-            companyname: 'Misfit Technologies',
+            companyname: 'Misfit Technologies & Alice Labs PTE',
             link: 'https://misfit.tech',
             description:
                 'Most of my tasks were related to front-end development. I worked in Javascript framework ReactJS. Here most of the projects I had to create from scratch therefore I have good knowledge on product development and product flow. Also I have designed some of the logos for this company. Alice Labs is a sister concern of Misfit technologies. Worked in Projects such as Alice, Smart Bees & Bikri.  Worked mostly on social platform management front-end(Alice), survey Builder (Smart Bees), SME order management system (Bikri) etc. ',
@@ -96,7 +96,7 @@ module.exports = {
             company: 'ALICE LABS',
             responsiblity: 'UI/UX DESIGN & Front-end Development',
             description:
-                'It was a bot building system for developer. This software automate bots from different platform such as facebook,viber,whats app and allow admins to manage the messages form same platform. It is in Sass model as well as for enterprise model. This make admin accessiblity to manage bot from omni-chanel which very few companys in world can do. My responsiblity was to maintain all design and UX flow design & implement them in frontend using reactJs',
+                'It was a bot building system for developer. This software automate bots from different platform such as facebook, viber, whats app and allow admins to manage the messages form same platform. It is in Sass model as well as for enterprise model. This make admin accessibility to manage bot from omni channel which very few companies in world can do. My responsibility was to maintain all design and UX flow design & implement them in frontend using reactJs',
             link: 'https://app.getalice.ai',
         },
         {
@@ -116,7 +116,7 @@ module.exports = {
             company: 'ALICE LABS',
             responsiblity: 'UI/UX DESIGN & Front-end Development',
             description:
-                'My task here was to design product interface, logo, maintain flow properly with backend, develop frontend in ReactJS (initially individual later on transferred).  This project helps to maintain social Platform in one place. Such as Facebook, viber etc in one place also with additional features such as broadcast, segmentation.',
+                'My task here was to design product interface, logo, maintain flow properly with backend, develop frontend in ReactJS (initially individual later on transferred).  This project helps to maintain social Platform in one place. Such as Facebook, viber etc in one place also with additional features such as broadcast, segmentation, Maintain customer through CRM',
             link: 'https://getalice.ai',
         },
         {
@@ -191,8 +191,9 @@ module.exports = {
             ],
             onenSourcedPackages: [
                 { id: 1, name: 'Cohort React Graph', link: 'http://bit.ly/2IVojy0' },
-                { id: 2, name: 'Word Cloud React', link: 'http://bit.ly/2vv7hOC' },
-                { id: 3, name: 'utilitycss3', link: 'http://bit.ly/2vAsGpI' },    
+                { id: 2, name: 'Word Cloud React', link: 'http://bit.ly/2vv7hOC' }, 
+                { id: 3, name: 'React Picture Grid', link: 'https://bit.ly/3dfsr7b' },    
+            
             ],
     },
     socialLinks: {
