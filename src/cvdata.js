@@ -58,24 +58,43 @@ module.exports = {
     experiance: [
         {
             id: 1,
-            year: "2018 - 2020",
-            designation: 'Software Engineer',
-            companyname: 'Misfit Technologies & Alice Labs PTE',
+            year: "2021 - Present",
+            designation: 'Senior Software Engineer',
+            companyname: 'Bkash Limited',
+            link: 'https://bkash.com',
+            description:
+                'Joined Bkash product and technology division in june. I worked in developing design system for bkash web and working in different portal and web services for bkash',
+        },
+          {
+            id: 2,
+            year: "2019 - 2021",
+            designation: 'Senior Software Engineer',
+            companyname: 'Alice Labs PTE',
+            link: 'https://myalice.ai',
+            description:
+                'Alice Labs PTE is a sister concern of Misfit technologies. My job here is to lead whole frontend of their dashboard , webChat/inApp SDK for chat and rest of frontend task. I was mostly tasked with designing frontend system, planning CI/CD and plan and implement features. Worked in additional projects such as Smart Bees & Bikri from Alice Labs PTE.',
+        },
+           {
+            id: 3,
+            year: "2017 - 2018",
+            designation: 'Software Engineerr',
+            companyname: 'Misfit Technologies Ltd',
             link: 'https://misfit.tech',
             description:
-                'Most of my tasks were related to front-end development. I worked in Javascript framework ReactJS. Here most of the projects I had to create from scratch therefore I have good knowledge on product development and product flow. Also I have designed some of the logos for this company. Alice Labs is a sister concern of Misfit technologies. Worked in Projects such as Alice, Smart Bees & Bikri.  Worked mostly on social platform management front-end(Alice), survey Builder (Smart Bees), SME order management system (Bikri) etc. ',
+                'I worked in JavaScript framework ReactJs. Here most of the projects I had to create from scratch therefore I have good knowledge on product development and product flow. Also I have designed some of the logos for this company.',
         },
         {
-            id: 2,
-            year: "2017 - 2018",
+            id: 3,
+            year: "2017 - 2017",
             designation: 'Software Engineer and UI/UX Designer',
             companyname: 'Mayalogy Ltd.',
             link: 'https://www.maya.com.bd',
             description:
-                'Maya Apa is an anonymous messaging service where user can ask for an expert advice. I work there as a                frontend developer and UI/UX Designer. One of my best experience there was working with Facebook by Maya apa’s free basics site. I developed both frontend and backend also UI for their android app. Also did many frontend work like their dashboard for experts, designed UI &implemented their PWA using ReactJS.',
+                'Maya Apa is an anonymous messaging service where user can ask for an expert advice. I work there as a frontend developer and UI/UX Designer. One of my best experience there was working with Facebook by Maya apa’s free basics site. I developed both frontend and backend also UI for their android app. Also did many frontend work like their dashboard for experts, designed UI &implemented their PWA using ReactJS.',
         },
+     
         {
-            id: 3,
+            id: 4,
             year: "2014 - 2017",
             designation: 'Freelancer',
             companyname: 'Designer and Web Developer',
